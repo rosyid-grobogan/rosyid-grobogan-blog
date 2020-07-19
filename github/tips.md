@@ -24,3 +24,5 @@ rosyid-grobogan/rosyid-grobogan
 
 Langkah selanjutnya..
 Membuat file README.md dan isikan konten yang akan disisipkan ke github profile.
+
+## Cara Pin repository di GitHub profile

@@ -1,3 +1,5 @@
+- [Blog](/)
+- [Docsify](/articles/docsify.md)
 - Ubuntu
   - [Apache2](/ubuntu/apache2.md)
   - [Local Domain](/ubuntu/local-domain.md)

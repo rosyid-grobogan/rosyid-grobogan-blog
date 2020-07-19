@@ -1,4 +1,5 @@
 - Ubuntu
-  - [Apache2](/ubuntu/apache.md)
+  - [Apache2](/ubuntu/apache2.md)
+  - [Local Domain](/ubuntu/local-domain.md)
 - Github
   - [Tips](github/tips.md)

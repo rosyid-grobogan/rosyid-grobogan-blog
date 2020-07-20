@@ -10,10 +10,20 @@
 
 ## Web Designer
 
-- https://www.figma.com
 - https://www.flaticon.com
 - https://undraw.co
 - https://www.canva.com/
+
+## Developer
+- [Behance](https://www.behance.net/)
+
+## Board Developer & UI
+- [Dribbble](https://dribbble.com)
+- [Code Sand Box](https://codesandbox.io)
+
+## UI Design
+- https://www.figma.com
+- https://marvelapp.com/
 
 ## Diagram
 

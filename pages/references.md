@@ -17,6 +17,8 @@
 
 - [Sekolah Koding](https://sekolahkoding.com/)
 - [Coursera](https://www.coursera.org)
+- [Dicoding](https://www.dicoding.com)
+- [Vue Mastery](https://www.vuemastery.com)
 
 ## Clean Code
 
@@ -53,12 +55,69 @@
 - [Hackerrank](https://www.hackerrank.com/challenges/java-if-else/problem)
 - [Geeks For Geeks](https://www.geeksforgeeks.org/output-java-programs-set-43-conditional-statements-loops/)
 
-## Youtube
 
-- [Artivisi](https://www.youtube.com/user/artivisi)
 
 * https://pusher.com/
 
 ## DevOps
 
 - [Hand on DevOps](https://github.com/nemonik/hands-on-DevOps)
+
+## Programmer
+- [Github: Amigos Code](https://github.com/amigoscode/software-testing)
+
+## Youtube
+
+- [Youtube: Artivisi](https://www.youtube.com/user/artivisi)
+
+## React
+- [Youtube: Prawito Hudoro](https://www.youtube.com/c/prawitohudoro/videos)
+
+## Flutter & Dart
+- [Youtube: Erico Darmawan Handoyo](https://www.youtube.com/c/EricoDarmawanHandoyo/playlists)
+
+
+## [Freemium : Build With Angga](https://www.buildwithangga.com)
+---
+
+## Flutter
+
+- [Flutter Mobile Apps](https://www.buildwithangga.com/kelas/flutter-mobile-apps)
+- [Dart Pemula](https://www.buildwithangga.com/kelas/dart-pemula)
+- [Flutter Fundamentals](https://www.buildwithangga.com/kelas/flutter-fundamentals)
+
+
+## Golang
+
+- [Golang Fundamental](https://www.buildwithangga.com/kelas/golang-fundamental)
+
+## CSS Tailwind
+- [CSS Tailwind Web Design](https://www.buildwithangga.com/kelas/css-tailwind-web-design)
+
+## UX Design
+- [UX Design: Wireframe](https://www.buildwithangga.com/kelas/ux-design-wireframe)
+
+## Node js
+- [Node JavaScript Dasar: Elfin Sanjaya](https://www.buildwithangga.com/kelas/node-javascript-dasar)
+
+## React
+- [React Native Dasar: Prawito Hudoro](https://www.buildwithangga.com/kelas/react-native-dasar)
+
+
+## Microservices
+- [Microservice Architecture Web Development: Widada](https://www.buildwithangga.com/kelas/microservice-architecture-web-development)
+
+
+## Rest
+- [Membuat RestAPI Dengan Lumen: Widada](https://www.buildwithangga.com/kelas/membuat-restapi-dengan-lumen)
+
+## Svelte
+- [Svelte JavaScript Web Development: Riza Fahmi](https://www.buildwithangga.com/kelas/svelte-javascript-web-development)
+
+
+## Vue
+- [Examples](https://vuejsexamples.com/)
+
+
+## Hosting
+- [Cloud Kilat](https://www.cloudkilat.com)

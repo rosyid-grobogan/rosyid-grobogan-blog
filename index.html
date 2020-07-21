@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
   <style>
-
 /* Line Numbering */
 pre {
   display: block;
@@ -20,7 +19,7 @@ pre {
   overflow: auto;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
-  padding: .5rem;
+  padding: 0.5rem;
   max-height: 800px;
   font-family: monospace;
 }
@@ -39,7 +38,7 @@ pre .line-number {
 }
 pre .line-number span {
   display: block;
-  padding: 0 .5em 0 0.2em;
+  padding: 0 0.5em 0 0.2em;
   color: #ccc;
 }
 pre .cl {
@@ -49,7 +48,7 @@ pre .cl {
 
 /* override */
 .markdown-section pre > code {
-padding: 0.1em 0px !important;
+  padding: 0.1em 0px !important;
 }
 
   </style>
@@ -74,11 +73,11 @@ padding: 0.1em 0px !important;
           }
         }
       },
-            plugins: [
-          function (hook, vm) {
-              hook.doneEach(function (html) {                
-                Prism.highlightAll();
-              })
+    plugins: [
+        function (hook, vm) {
+            hook.doneEach(function (html) {                
+              Prism.highlightAll();
+            })
           }
       ]
 

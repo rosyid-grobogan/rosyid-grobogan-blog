@@ -201,8 +201,6 @@ Hasilnya
 
 ?> Catatan ini penting
 
-# Advanced
-
 ## Loading Dialog
 
 ```html
@@ -215,4 +213,83 @@ Hasilnya
     };
   </script>
 </body>
+```
+
+# Line Numbers
+
+Tambah CSS: di `<style> .. </style>`
+
+```css
+/* Line Numbering */
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  white-space: pre;
+  overflow: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  max-height: 800px;
+  font-family: monospace;
+}
+pre code {
+  color: inherit;
+  background-color: transparent;
+  padding: 0;
+  display: block;
+}
+pre .line-number {
+  display: block;
+  float: left;
+  margin: 0 1em 0 -1em;
+  border-right: 1px solid #ddd;
+  text-align: right;
+}
+pre .line-number span {
+  display: block;
+  padding: 0 0.5em 0 0.2em;
+  color: #ccc;
+}
+pre .cl {
+  display: block;
+  clear: both;
+}
+
+/* override */
+.markdown-section pre > code {
+  padding: 0.1em 0px !important;
+}
+```
+
+Tambah JavaScript di dalam window.\$docsify = { .. }
+
+```js
+    markdown: {
+        renderer: {
+          /* Change code block rendering. Add line-numbers class.*/
+          code: function (code, lang) {
+            let cc = document.createElement('code');
+            cc.textContent = code;
+            cc.setAttribute('class', 'language-' + lang);
+            let n = cc.textContent.split(/\r\n|\r|\n/).length;
+            return '<pre data-lang="' + lang + '" class="line-numbers"><span class="line-number"><span v-for="e in '+ n +'"> {{e}}</span></span>' + cc.outerHTML + '</pre>';
+          }
+        }
+      },
+    plugins: [
+        function (hook, vm) {
+            hook.doneEach(function (html) {
+              Prism.highlightAll();
+            })
+          }
+      ]
+```
+
+Tambah script js di index.html
+
+```html
+<script src="//unpkg.com/vue/dist/vue.js"></script>
 ```
